@@ -18,5 +18,9 @@ namespace Muresan_Corina_Lab2.Data
         public DbSet<Muresan_Corina_Lab2.Models.Publisher> Publisher { get; set; } = default!;
         public DbSet<Muresan_Corina_Lab2.Models.Author> Author { get; set; } = default!;
         public DbSet<Muresan_Corina_Lab2.Models.Category> Category { get; set; } = default!;
+
+        public DbSet<Member> Member { get; set; }
+        public DbSet<Borrowing> Borrowing { get; set; }
+
     }
 }
